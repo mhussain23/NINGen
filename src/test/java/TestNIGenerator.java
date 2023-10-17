@@ -32,7 +32,7 @@ public class TestNIGenerator {
         if (checkInt>=1000 && checkInt<=9999)
             checkRandomNumber=true;
         assertTrue(checkRandomNumber);
-
+        System.out.println(checkRandomNumber);
 
     }
 }
